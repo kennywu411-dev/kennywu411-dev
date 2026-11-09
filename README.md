@@ -16,6 +16,8 @@
 
 <a href="https://github.com/kennywu411-dev/honestly"><img src="assets/honestly.svg" width="100%" alt="honestly：94/94。编程助手说“测试通过”时，核对这一轮是否真的跑过，没有就拦下。已发布到 PyPI，在真实的 Claude Code、Codex、Gemini CLI 里跑了 94 个端到端场景。"></a>
 
+可以直接打开看：[UIPilot 操作回放](https://kennywu411-dev.github.io/uipilot/) · [evalkit 评测看板](https://kennywu411-dev.github.io/evalkit/) · [laborcheck 评测看板](https://kennywu411-dev.github.io/laborcheck/)
+
 ## 开源贡献
 
 已合并：
