@@ -6,7 +6,7 @@
 
 <a href="https://github.com/kennywu411-dev/datapilot"><img src="assets/datapilot.svg" width="100%" alt="DataPilot：63.0% → 68.0%。中文问数（NL2SQL），出错自动修正。取值核对加执行纠错提升了 Haiku 准确率；固定流程和 Agent 准确率相同，Agent 贵 56%；行列级权限越权 0/170。"></a>
 
-<a href="https://github.com/kennywu411-dev/contract-review-agent"><img src="assets/contract-review-agent.svg" width="100%" alt="合同风险审查 Agent：75/75。60 份长合同的难评测集检出 75/75。多 Agent 把干净合同上的误报意见从 13–14 条降到 4–6 条，每条意见附法条或公司规范原文，核实不了的转法务。"></a>
+<a href="https://github.com/kennywu411-dev/contract-review-agent"><img src="assets/contract-review-agent.svg" width="100%" alt="合同风险审查 Agent：75/75。60 份长合同的难评测集检出 75/75，代价是误报回升。较简单的评测集上，多 Agent 把干净合同的误报意见从 13–14 条降到 4–6 条。每条意见附法条或公司规范原文，核实不了的转法务。"></a>
 
 <a href="https://github.com/kennywu411-dev/uipilot"><img src="assets/uipilot.svg" width="100%" alt="UIPilot：15 处。浏览器 Agent，在没有 API 的网页系统里找缺陷、录单据。在 TodoMVC 11 个官方实现里找到 7 个实现的 15 处规格偏差，逐条人工复核。"></a>
 
