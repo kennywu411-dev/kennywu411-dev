@@ -15,7 +15,7 @@
 <a href="https://github.com/kennywu411-dev/honestly"><img src="https://raw.githubusercontent.com/kennywu411-dev/kennywu411-dev/main/assets/honestly.svg" width="410" alt="honestly：94/94。编程助手说“测试通过”时，核对这一轮是否真的跑过，没有就拦下。已发布到 PyPI，在真实的编程助手里跑了 94 个端到端场景。"></a>
 <a href="https://github.com/kennywu411-dev/ecommerce-dashboard"><img src="https://raw.githubusercontent.com/kennywu411-dev/kennywu411-dev/main/assets/ecommerce-dashboard.svg" width="410" alt="电商经营看板：10.7%。跨境电商经营分析看板，先定指标口径再出图。同一个“销售额”最宽和最窄口径相差 10.7%；前 10 张退货单占退货额 44.6%。"></a>
 
-可以直接打开看：[电商经营看板](https://kennywu411-dev.github.io/ecommerce-dashboard/) · [UIPilot 操作回放](https://kennywu411-dev.github.io/uipilot/) · [evalkit 评测看板](https://kennywu411-dev.github.io/evalkit/) · [laborcheck 评测看板](https://kennywu411-dev.github.io/laborcheck/)
+可以直接打开看：[产品经理作品集](https://kennywu411-dev.github.io/pm-portfolio/) · [电商经营看板](https://kennywu411-dev.github.io/ecommerce-dashboard/) · [UIPilot 操作回放](https://kennywu411-dev.github.io/uipilot/) · [evalkit 评测看板](https://kennywu411-dev.github.io/evalkit/) · [laborcheck 评测看板](https://kennywu411-dev.github.io/laborcheck/)
 
 ## 开源贡献
 
