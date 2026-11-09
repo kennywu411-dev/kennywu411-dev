@@ -1,17 +1,20 @@
-### 你好，我是 Kenny
+<img src="assets/header.svg" width="100%" alt="Kenny Wu，大模型应用与 Agent。6 个开源项目，3 个 PR 合入上游，PyPI 已发布">
 
-我做大模型应用和 Agent，重点放在可验证上：每个设计选择都有对照实验，数字能复现，模型拿不准的地方交给规则、校验或人工。
+你好，我是 Kenny。我做大模型应用和 Agent，重点放在可验证上：每个设计选择都有对照实验，数字能复现，模型拿不准的地方交给规则、校验或人工。
 
 ## 项目
 
-| 项目 | 做什么 | 关键结果 |
-|---|---|---|
-| [**DataPilot**](https://github.com/kennywu411-dev/datapilot) | 中文问数（NL2SQL）：读表结构、写 SQL、只读执行、出错自动修正，返回答案、表格和图表 | 取值核对加执行纠错把 Haiku 准确率从 63.0% 提到 68.0%（p=0.008）；实验证明固定流程和 Agent 准确率相同，Agent 贵 56%；指标语义层把不带口径说明的提问从 65% 提到 92–95%；行列级权限越权 0/170；另有指标目录和数据质量检查 |
-| [**Contract Risk Review Agent**](https://github.com/kennywu411-dev/contract-review-agent) | 合同风险审查：站在我方立场逐条找不利条款，每条意见附法条或公司规范原文，核实不了的转法务 | 难评测集 60 份长合同检出 75/75；多 Agent 把干净合同上的误报意见从 13–14 条降到 4–6 条；无依据意见占比 0.8%；附 PRD、竞品分析和用户试用方案 |
-| [**UIPilot**](https://github.com/kennywu411-dev/uipilot) | 浏览器 Agent：在没有 API 的网页系统里干活。共用底座（Claude 浏览器工具集的 Playwright 执行器，删除请求在网络层拦截）上跑两个应用：读规格找缺陷的测试 Agent，看扫描件往老 ERP 里录单的录单 Agent | 在 TodoMVC 11 个官方实现里找到 7 个实现 15 处规格偏差（逐条人工复核，多数官方测试没覆盖）；ERP 靶子 14 个植入缺陷检出 76–91%，唯一一条误报（模型算错税额）靠计算器工具修掉；录单难题集单据印上税号后三档模型录错 0 |
-| [**laborcheck**](https://github.com/kennywu411-dev/laborcheck) | 中国劳动合同与 Offer 的规则引擎和公开评测集（339 题，四个城市的官方数据）：测大模型在试用期、违约金、社保基数、到手收入这类问题上的准确率 | Claude 三档只靠自身知识 82.6–87.6%，需要当年地方数据的题只对 35–47.5%；接入规则引擎工具后 98.8–100% |
-| [**evalkit**](https://github.com/kennywu411-dev/evalkit) | LLM 应用评测平台：评测集管理、打分器、配对统计、回归门禁、线上反馈和静态看板 | 零运行时依赖；DataPilot、合同审查、laborcheck 的评测都跑在它上面，用它们已有的运行记录复算，DataPilot 88 项、合同审查 79 项全部一致，laborcheck 610 项里 609 项一致（1 项为已知文档笔误） |
-| [**honestly**](https://github.com/kennywu411-dev/honestly) | 给编程助手用的验证工具：它说"测试通过""已部署"时，核对这一轮里是否真的执行过，没有就拦下 | 已发布到 PyPI；纯规则、无依赖、不联网；支持 Claude Code、Codex、Cursor、Gemini CLI |
+<a href="https://github.com/kennywu411-dev/datapilot"><img src="assets/datapilot.svg" width="100%" alt="DataPilot：63.0% → 68.0%。中文问数（NL2SQL），只读执行，出错自动修正。取值核对加执行纠错提升了 Haiku 准确率；实验证明固定流程和 Agent 准确率相同，Agent 贵 56%；行列级权限越权 0/170。"></a>
+
+<a href="https://github.com/kennywu411-dev/contract-review-agent"><img src="assets/contract-review-agent.svg" width="100%" alt="合同风险审查 Agent：75/75。60 份长合同的难评测集检出 75/75。多 Agent 把干净合同上的误报意见从 13–14 条降到 4–6 条，每条意见附法条或公司规范原文，核实不了的转法务。"></a>
+
+<a href="https://github.com/kennywu411-dev/uipilot"><img src="assets/uipilot.svg" width="100%" alt="UIPilot：15 处。浏览器 Agent，在没有 API 的网页系统里找缺陷、录单据。在 TodoMVC 11 个官方实现里找到 7 个实现的 15 处规格偏差，逐条人工复核。"></a>
+
+<a href="https://github.com/kennywu411-dev/laborcheck"><img src="assets/laborcheck.svg" width="100%" alt="laborcheck：98.8–100%。中国劳动合同与 Offer 的规则引擎和公开评测集（339 题）。Claude 三档只靠自身知识 82.6–87.6%，接入规则引擎工具后 98.8–100%。"></a>
+
+<a href="https://github.com/kennywu411-dev/evalkit"><img src="assets/evalkit.svg" width="100%" alt="evalkit：776/777。LLM 应用评测平台，零运行时依赖。复算 DataPilot、合同审查、laborcheck 已有的运行记录，唯一不一致的 1 项是已知的文档笔误。"></a>
+
+<a href="https://github.com/kennywu411-dev/honestly"><img src="assets/honestly.svg" width="100%" alt="honestly：94/94。编程助手说“测试通过”时，核对这一轮是否真的跑过，没有就拦下。已发布到 PyPI，在真实的 Claude Code、Codex、Gemini CLI 里跑了 94 个端到端场景。"></a>
 
 ## 开源贡献
 
@@ -25,6 +28,8 @@
 
 ## 常用技术
 
-- 大模型应用：RAG（BM25 + 向量 + 重排）、Agent 与多 Agent、工具调用、MCP、结构化输出、提示缓存、浏览器 Agent（Computer Use）、多模态单据识别
-- 评测：评测集构造、配对显著性检验、LLM 裁判校准、回归门禁、trace 与成本分析
-- 工程：Python、FastAPI、SSE、Redis、SQLite、sqlglot、LangGraph、Playwright、Next.js、Docker、GitHub Actions
+**大模型应用：** `RAG` `Agent` `多 Agent` `工具调用` `MCP` `结构化输出` `提示缓存` `Computer Use` `多模态单据识别`
+
+**评测：** `评测集构造` `配对显著性检验` `LLM 裁判校准` `回归门禁` `trace 与成本分析`
+
+**工程：** `Python` `FastAPI` `SSE` `Redis` `SQLite` `sqlglot` `LangGraph` `Playwright` `Next.js` `Docker` `GitHub Actions`
