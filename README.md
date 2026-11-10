@@ -1,6 +1,6 @@
 <p><picture>
   <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/kennywu411-dev/kennywu411-dev/main/assets/header-narrow.svg">
-  <img src="https://raw.githubusercontent.com/kennywu411-dev/kennywu411-dev/main/assets/header.svg" width="825" alt="Kenny Wu，大模型应用与 Agent。7 个开源项目，3 个 PR 合入上游，PyPI 已发布">
+  <img src="https://raw.githubusercontent.com/kennywu411-dev/kennywu411-dev/main/assets/header.svg" width="825" alt="Kenny Wu，大模型应用与 Agent。8 个开源项目，3 个 PR 合入上游，PyPI 已发布">
 </picture></p>
 
 你好，我是 Kenny。我做大模型应用和 Agent，重点放在可验证上：每个设计选择都有对照实验，数字能复现，模型拿不准的地方交给规则、校验或人工。
@@ -14,6 +14,7 @@
 <a href="https://github.com/kennywu411-dev/evalkit"><img src="https://raw.githubusercontent.com/kennywu411-dev/kennywu411-dev/main/assets/evalkit.svg" width="410" alt="evalkit：776/777。LLM 应用评测平台，零运行时依赖。复算 DataPilot、合同审查、laborcheck 已有的运行记录，唯一不一致的 1 项是已知的文档笔误。"></a>
 <a href="https://github.com/kennywu411-dev/honestly"><img src="https://raw.githubusercontent.com/kennywu411-dev/kennywu411-dev/main/assets/honestly.svg" width="410" alt="honestly：94/94。编程助手说“测试通过”时，核对这一轮是否真的跑过，没有就拦下。已发布到 PyPI，在真实的编程助手里跑了 94 个端到端场景。"></a>
 <a href="https://github.com/kennywu411-dev/ecommerce-dashboard"><img src="https://raw.githubusercontent.com/kennywu411-dev/kennywu411-dev/main/assets/ecommerce-dashboard.svg" width="410" alt="电商经营看板：10.7%。跨境电商经营分析看板，先定指标口径再出图。同一个“销售额”最宽和最窄口径相差 10.7%；前 10 张退货单占退货额 44.6%。"></a>
+<a href="https://github.com/kennywu411-dev/quant-allocation-research"><img src="https://raw.githubusercontent.com/kennywu411-dev/kennywu411-dev/main/assets/quant-allocation-research.svg" width="410" alt="跨市场量化研究：-14.2%。A股+美股 ETF 配置回测，门槛在运行前写死。趋势过滤：回撤 -32.0%→-14.2%，年化 7.3%→5.9%；A股 7 个因子按 t≥3 预登记检验，全部不显著。历史回测，不是投资建议。"></a>
 
 可以直接打开看：[产品经理作品集](https://kennywu411-dev.github.io/pm-portfolio/) · [电商经营看板](https://kennywu411-dev.github.io/ecommerce-dashboard/) · [UIPilot 操作回放](https://kennywu411-dev.github.io/uipilot/) · [evalkit 评测看板](https://kennywu411-dev.github.io/evalkit/) · [laborcheck 评测看板](https://kennywu411-dev.github.io/laborcheck/)
 
@@ -30,6 +31,8 @@
 ## 常用技术
 
 **大模型应用：** `RAG` `Agent` `多 Agent` `工具调用` `MCP` `结构化输出` `提示缓存` `Computer Use` `多模态单据识别`
+
+**量化研究：** `回测引擎` `样本外检验` `多重检验折扣（DSR）` `因子 IC 与分组` `幸存者偏差`
 
 **数据分析：** `指标体系与口径` `同期群分析` `pandas` `ECharts`
 
