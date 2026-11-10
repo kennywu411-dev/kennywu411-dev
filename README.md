@@ -14,7 +14,7 @@
 <a href="https://github.com/kennywu411-dev/evalkit"><img src="https://raw.githubusercontent.com/kennywu411-dev/kennywu411-dev/main/assets/evalkit.svg" width="410" alt="evalkit：776/777。LLM 应用评测平台，零运行时依赖。复算 DataPilot、合同审查、laborcheck 已有的运行记录，唯一不一致的 1 项是已知的文档笔误。"></a>
 <a href="https://github.com/kennywu411-dev/honestly"><img src="https://raw.githubusercontent.com/kennywu411-dev/kennywu411-dev/main/assets/honestly.svg" width="410" alt="honestly：94/94。编程助手说“测试通过”时，核对这一轮是否真的跑过，没有就拦下。已发布到 PyPI，在真实的编程助手里跑了 94 个端到端场景。"></a>
 
-在线演示：[UIPilot 操作回放](https://kennywu411-dev.github.io/uipilot/) · [evalkit 评测看板](https://kennywu411-dev.github.io/evalkit/) · [laborcheck 评测看板](https://kennywu411-dev.github.io/laborcheck/)
+在线演示：[DataPilot 问数回放](https://kennywu411-dev.github.io/datapilot/) · [合同审查回放](https://kennywu411-dev.github.io/contract-review-agent/) · [UIPilot 操作回放](https://kennywu411-dev.github.io/uipilot/) · [evalkit 评测看板](https://kennywu411-dev.github.io/evalkit/) · [laborcheck 评测看板](https://kennywu411-dev.github.io/laborcheck/)
 
 ### 其他项目
 
