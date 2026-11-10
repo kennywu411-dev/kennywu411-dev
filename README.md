@@ -14,14 +14,14 @@
 <a href="https://github.com/kennywu411-dev/evalkit"><img src="https://raw.githubusercontent.com/kennywu411-dev/kennywu411-dev/main/assets/evalkit.svg" width="410" alt="evalkit：776/777。LLM 应用评测平台，零运行时依赖。复算 DataPilot、合同审查、laborcheck 已有的运行记录，唯一不一致的 1 项是已知的文档笔误。"></a>
 <a href="https://github.com/kennywu411-dev/honestly"><img src="https://raw.githubusercontent.com/kennywu411-dev/kennywu411-dev/main/assets/honestly.svg" width="410" alt="honestly：94/94。编程助手说“测试通过”时，核对这一轮是否真的跑过，没有就拦下。已发布到 PyPI，在真实的编程助手里跑了 94 个端到端场景。"></a>
 
-可以直接打开看：[UIPilot 操作回放](https://kennywu411-dev.github.io/uipilot/) · [evalkit 评测看板](https://kennywu411-dev.github.io/evalkit/) · [laborcheck 评测看板](https://kennywu411-dev.github.io/laborcheck/)
+在线演示：[UIPilot 操作回放](https://kennywu411-dev.github.io/uipilot/) · [evalkit 评测看板](https://kennywu411-dev.github.io/evalkit/) · [laborcheck 评测看板](https://kennywu411-dev.github.io/laborcheck/)
 
-### 小一些的
+### 其他项目
 
-- [video-pacing](https://github.com/kennywu411-dev/video-pacing)：检查短视频节奏的 Agent skill 和脚本，看前 5 秒有没有钩子、哪里连续 3 秒以上没有新东西。我自己一条嫌慢的初版被标出 10 段等待，改完后的成片剩 1 段
-- [sqlguard-mcp](https://github.com/kennywu411-dev/sqlguard-mcp)：只读的 SQLite MCP 服务器，从 DataPilot 里拆出来的五层防护：语法检查、只读连接、授权回调、超时、行数上限
-- [ecommerce-dashboard](https://github.com/kennywu411-dev/ecommerce-dashboard)：跨境电商经营分析看板，先定指标口径再做图。同一个“销售额”，最宽和最窄的口径相差 10.7%（[在线看板](https://kennywu411-dev.github.io/ecommerce-dashboard/)）
-- [quant-allocation-research](https://github.com/kennywu411-dev/quant-allocation-research)：跨市场 ETF 配置的个人研究。回测引擎和开源库 bt 交叉核对，5 个因子 ETF 候选按事先写好的门槛全部否决。不是投资建议
+- [video-pacing](https://github.com/kennywu411-dev/video-pacing)：检查短视频节奏的 Agent skill 和脚本，检测前 5 秒是否有钩子，以及哪些片段连续 3 秒以上没有新信息。同一条视频的初版检出 10 段等待，修改后的成片为 1 段
+- [sqlguard-mcp](https://github.com/kennywu411-dev/sqlguard-mcp)：只读的 SQLite MCP 服务器，五层防护取自 DataPilot：语法检查、只读连接、授权回调、超时、行数上限
+- [ecommerce-dashboard](https://github.com/kennywu411-dev/ecommerce-dashboard)：跨境电商经营分析看板，先定义指标口径，再设计看板。同一个“销售额”，最宽与最窄口径相差 10.7%（[在线看板](https://kennywu411-dev.github.io/ecommerce-dashboard/)）
+- [quant-allocation-research](https://github.com/kennywu411-dev/quant-allocation-research)：跨市场 ETF 配置研究。回测引擎与开源库 bt 交叉核对，5 个因子 ETF 候选按预先设定的门槛全部否决。仅为个人研究记录，不构成投资建议
 
 ## 文章
 
