@@ -21,7 +21,7 @@
 - [video-pacing 短视频节奏检查](https://github.com/kennywu411-dev/video-pacing)：检查短视频节奏的 Agent skill 和脚本，检测前 5 秒是否有钩子，以及哪些片段连续 3 秒以上没有新信息。同一条视频的初版检出 10 段等待，修改后的成片为 1 段
 - [sqlguard-mcp 只读 SQL 防护](https://github.com/kennywu411-dev/sqlguard-mcp)：只读的 SQLite MCP 服务器，五层防护取自 MetricLens：语法检查、只读连接、授权回调、超时、行数上限
 - [ecommerce-dashboard 跨境电商看板](https://github.com/kennywu411-dev/ecommerce-dashboard)：跨境电商经营分析看板，先定义指标口径，再设计看板。同一个“销售额”，最宽与最窄口径相差 10.7%（[在线看板](https://kennywu411-dev.github.io/ecommerce-dashboard/)）
-- [quant-allocation-research 跨市场配置研究](https://github.com/kennywu411-dev/quant-allocation-research)：跨市场 ETF 配置研究。回测引擎与开源库 bt 交叉核对，5 个因子 ETF 候选按预先设定的门槛全部否决。仅为个人研究记录，不构成投资建议
+- [quant-allocation-research 跨市场配置研究](https://github.com/kennywu411-dev/quant-allocation-research)：跨市场 ETF 配置与 A 股因子研究。回测引擎与开源库 bt 交叉核对；在含退市股的全 A 股（5,481 只）上按预先登记的门槛检验 10 个因子和 3 种合成，13 个试验通过 4 个，LightGBM 合成没有样本外增益。仅为个人研究记录，不构成投资建议
 
 ## 文章
 
