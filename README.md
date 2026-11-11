@@ -7,14 +7,14 @@
 
 ## 项目
 
-<a href="https://github.com/kennywu411-dev/datapilot"><img src="https://raw.githubusercontent.com/kennywu411-dev/kennywu411-dev/main/assets/datapilot.svg" width="410" alt="DataPilot：63.0% → 68.0%。中文问数（NL2SQL），出错自动修正。取值核对加执行纠错提升 Haiku 准确率；固定流程和 Agent 一样准，Agent 贵 56%；行列级权限越权 0/170。"></a>
-<a href="https://github.com/kennywu411-dev/contract-review-agent"><img src="https://raw.githubusercontent.com/kennywu411-dev/kennywu411-dev/main/assets/contract-review-agent.svg" width="410" alt="合同风险审查 Agent：75/75。60 份长合同的难评测集检出 75/75，代价是误报回升；较简单的评测集上，多 Agent 把干净合同的误报意见从 13–14 条降到 4–6 条。每条意见附法条或公司规范原文。"></a>
+<a href="https://github.com/kennywu411-dev/datapilot"><img src="https://raw.githubusercontent.com/kennywu411-dev/kennywu411-dev/main/assets/datapilot.svg" width="410" alt="DataPilot：1,151/1,151。经营问数与指标异动归因。归因回答里的 1,151 个数字全部能对上执行过的 SQL；固定流程和 Agent 一样准，成本是它的 1/4–1/7；行列级权限越权 0/170。"></a>
+<a href="https://github.com/kennywu411-dev/contract-review-agent"><img src="https://raw.githubusercontent.com/kennywu411-dev/kennywu411-dev/main/assets/contract-review-agent.svg" width="410" alt="采购合同审查 Agent：132–133/133。把每条风险算成钱并排出谈判优先级。模型只抄数字，金额由规则代码计算：60 份留出合同 133 个测算项算对 132–133 个，没有给出过错误金额。"></a>
 <a href="https://github.com/kennywu411-dev/uipilot"><img src="https://raw.githubusercontent.com/kennywu411-dev/kennywu411-dev/main/assets/uipilot.svg" width="410" alt="UIPilot：15 处。浏览器 Agent，在没有 API 的网页系统里找缺陷、录单据。在 TodoMVC 11 个官方实现里找到 7 个实现的 15 处规格偏差，逐条人工复核。"></a>
 <a href="https://github.com/kennywu411-dev/laborcheck"><img src="https://raw.githubusercontent.com/kennywu411-dev/kennywu411-dev/main/assets/laborcheck.svg" width="410" alt="laborcheck：98.8–100%。中国劳动合同与 Offer 的规则引擎和公开评测集（339 题）。Claude 三档只靠自身知识 82.6–87.6%，接入规则引擎工具后 98.8–100%。"></a>
 <a href="https://github.com/kennywu411-dev/evalkit"><img src="https://raw.githubusercontent.com/kennywu411-dev/kennywu411-dev/main/assets/evalkit.svg" width="410" alt="evalkit：776/777。LLM 应用评测平台，零运行时依赖。复算 DataPilot、合同审查、laborcheck 已有的运行记录，唯一不一致的 1 项是已知的文档笔误。"></a>
 <a href="https://github.com/kennywu411-dev/honestly"><img src="https://raw.githubusercontent.com/kennywu411-dev/kennywu411-dev/main/assets/honestly.svg" width="410" alt="honestly：94/94。编程助手说“测试通过”时，核对这一轮是否真的跑过，没有就拦下。已发布到 PyPI，在真实的编程助手里跑了 94 个端到端场景。"></a>
 
-在线演示：[DataPilot 问数回放](https://kennywu411-dev.github.io/datapilot/) · [合同审查回放](https://kennywu411-dev.github.io/contract-review-agent/) · [UIPilot 操作回放](https://kennywu411-dev.github.io/uipilot/) · [evalkit 评测看板](https://kennywu411-dev.github.io/evalkit/) · [laborcheck 评测看板](https://kennywu411-dev.github.io/laborcheck/)
+在线演示：[DataPilot 问数与归因回放](https://kennywu411-dev.github.io/datapilot/) · [采购合同审查回放](https://kennywu411-dev.github.io/contract-review-agent/) · [UIPilot 操作回放](https://kennywu411-dev.github.io/uipilot/) · [evalkit 评测看板](https://kennywu411-dev.github.io/evalkit/) · [laborcheck 评测看板](https://kennywu411-dev.github.io/laborcheck/)
 
 ### 其他项目
 
